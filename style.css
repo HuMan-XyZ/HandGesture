@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.header {
+
+font-size: 20px;
+width: fit-content;
+padding: 8px;
+color: lightblue;
+}
+
+body {
+background-color: rgb(29, 26, 26);
+font-family: 'Poppins', sans-serif;
+}
+
+span{
+font-size: 35px;
+padding: 0.5px;
+
+}
+
+#camera , #result
+{
+  border: 2px dashed lightblue;
+  width: 350px;
+  height: 300px; 
+}
+
+label{
+color: white;
+}
+
+@keyframes ye{
+
+  
+    0%{border: pink ridge 2.5px;}
+
+    25%{border: lightblue ridge 2.5px;}
+
+    50%{border: yellow ridge 2.5px;}
+
+    75%{border: rgb(39, 215, 0) ridge 2.5px;}
+
+    100%{border: rgb(205, 147, 22) ridge 2.5px;}
+  
+
+}
+
+@keyframes ey{
+
+  
+  0%{color: pink  ;}
+
+  25%{color: lightblue; }
+
+  50%{color: yellow ;}
+
+  75%{color: rgb(39, 215, 0);}
+
+  100%{color: rgb(205, 147, 22);}
+
+
+}
+
+.header{
+  animation-name: ye , ey;
+  animation-duration: 3.4s;
+  animation-iteration-count: infinite;
+}
